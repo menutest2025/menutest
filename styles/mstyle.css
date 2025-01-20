@@ -1,0 +1,374 @@
+/* @font-face {
+    font-family: 'Vazir';
+    src: url('./fonts/vazir-font-v16.1.0/Vazir-Medium.eot');
+    src: url('./fonts/vazir-font-v16.1.0/Vazir.eot') format('embedded-opentype'),
+        url('./fonts/vazir-font-v16.1.0/Vazir-Medium.woff2') format('woff2'),
+        url('./fonts/vazir-font-v16.1.0/Vazir-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'yakan';
+    src: url('../fonts/IRANYekanBlack.ttf');
+}
+
+@font-face {
+    font-family: 'yakan-m';
+    src: url('../fonts/IRANYekanBold.ttf');
+} */
+
+
+/* * {
+    direction: rtl;
+    font-family: 'Vazir';
+    padding: 0;
+    margin: 0;
+
+
+} */
+
+/* html {
+    scroll-behavior: smooth;
+} */
+
+/* 
+
+#head {
+    width: 100%;
+    height: 4.5rem;
+    background-color: #5b0000;
+    position: relative;
+} */
+
+/* #logo {
+    width: 6.8rem;
+    height: 4rem;
+    margin-right: 45%;
+
+} */
+
+
+#sini {
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    position: absolute;
+    right: 12.5rem;
+    top: 9rem;
+    animation: rotate 140s infinite linear;
+}
+
+#h2 {
+    font-family: 'Yakan';
+    font-size: 2.5em;
+    position: absolute;
+    right: 37.5rem;
+    top: 13rem;
+    animation: slideUp 2s ease-out forwards;
+}
+
+.hilighted {
+    color: #5b0000;
+    font-family: 'Yakan';
+}
+
+h3 {
+    font-size: 1.3em;
+    position: absolute;
+    right: 40rem;
+    top: 17.5rem;
+    font-weight: lighter;
+    animation: slideUp2 3s ease-out forwards;
+}
+
+#arrow {
+    margin-top: 2.4rem;
+    /* margin-right: 0rem; */
+    /* background-color: #5b0000; */
+    height: 50px;
+    width: 50px;
+}
+
+
+#image1 {
+    margin-top: 20rem;
+    margin-right: 50rem;
+    width: 50px;
+    height: 90px;
+    background-color: #5b0000;
+    /* z-index: 1000; */
+    border-radius: 4rem;
+
+}
+
+#show-menu {
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+    width: 110px;
+    height: 30px;
+    color: white;
+    background-color: #5b0000;
+    margin-top: -6.1rem;
+    margin-right: -2rem;
+
+
+}
+
+
+
+/* 
+#arrow-down {
+    width: 3rem;
+    height: 3rem;
+    background-color: #5b0000;
+    background-size: contain;
+    border-radius: 50%;
+    margin-right: 800px;
+    margin-top: 300px;
+    animation: slideUp3 3s ease-out forwards;
+
+} */
+
+
+/* #showmenu {
+    color: rgb(0, 0, 0);
+    width: 6rem;
+    height: 2rem;
+    background-color: #5b0000;
+    border-radius: 50px;
+    margin-right: 780px;
+    margin-top: -85px;
+    animation: slideUp3 3s ease-out forwards;
+
+}
+
+#showmenu :hover {
+    cursor: pointer;
+
+} */
+
+#reserve {
+    color: white;
+    padding: 6px;
+    border: solid 1px white;
+    border-radius: 10rem;
+    font-size: 12px;
+    position: absolute;
+    right: 1rem;
+    top: 18px;
+    font-weight: lighter;
+    animation: slideUp2 3s ease-out forwards;
+}
+
+
+#frame {
+    padding: 6px;
+    border: solid 1px white;
+    color: white;
+    border-radius: 10rem;
+    font-size: 12px;
+    position: absolute;
+    right: 5.5rem;
+    top: 18px;
+    font-weight: lighter;
+    animation: slideUp2 3s ease-out forwards;
+
+}
+
+#frame:hover {
+    font-size: 13px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    background-color: white;
+    color: #5b0000;
+}
+
+
+#user-icon {
+    width: 25px;
+    height: 25px;
+    padding: 6px;
+    color: white;
+    position: absolute;
+    left: 1rem;
+    top: 18px;
+    animation: slideUp 2s ease;
+}
+
+#purchase {
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    color: white;
+    position: absolute;
+    left: 3.5rem;
+    top: 19px;
+    /* border: solid white 2px; */
+    border-radius: 50%;
+    animation: slideUp 2s ease;
+}
+
+#purchase:hover {
+    cursor: pointer;
+}
+
+#user-icon:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+#reserve:hover {
+    font-size: 14px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    background-color: white;
+    color: #5b0000;
+}
+
+
+#menu-section {
+    margin-top: 16rem;
+    width: 290px;
+    height: 240px;
+    border-radius: 60px;
+    /* background-color: rgba(101, 101, 101, 0.262); */
+    border: solid rgb(126, 126, 126) 1px;
+}
+
+
+#barg {
+    margin-top: -45px;
+    margin-right: 20px;
+    margin-left: 280px;
+    /* rotate: 90deg; */
+    width: 250px;
+    height: 250px;
+
+}
+
+#barg-text {
+    justify-content: center;
+    text-align: center;
+    margin-top: -30px;
+    margin-right: 5px;
+    font-weight: bolder;
+
+}
+
+
+
+
+
+
+#show-menu:hover,
+#arrow:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+@keyframes slideUp {
+    from {
+        transform: translateY(-50px);
+        /* شروع از پایین */
+        opacity: 0;
+        /* شروع به صورت نامرئی */
+    }
+
+    to {
+        transform: translateY(0);
+        /* پایان در موقعیت اصلی */
+        opacity: 1;
+        /* پایان با وضوح کامل */
+    }
+}
+
+
+@keyframes slideUp2 {
+    from {
+        transform: translateX(50px);
+        /* شروع از پایین */
+        opacity: 0;
+        /* شروع به صورت نامرئی */
+    }
+
+    to {
+        transform: translateX(0);
+        /* پایان در موقعیت اصلی */
+        opacity: 1;
+        /* پایان با وضوح کامل */
+    }
+}
+
+
+
+@keyframes slideUp3 {
+    from {
+        transform: translateY(-50px);
+        /* شروع از پایین */
+        opacity: 0;
+        /* شروع به صورت نامرئی */
+    }
+
+    to {
+        transform: translateY(0);
+        /* پایان در موقعیت اصلی */
+        opacity: 1;
+        /* پایان با وضوح کامل */
+    }
+}

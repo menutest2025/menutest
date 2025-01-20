@@ -1,0 +1,118 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Vazir";
+  src: url("./fonts/vazir-font-v16.1.0/Vazir-Medium.eot");
+  src: url("./fonts/vazir-font-v16.1.0/Vazir.eot") format("embedded-opentype"), url("./fonts/vazir-font-v16.1.0/Vazir-Medium.woff2") format("woff2"), url("./fonts/vazir-font-v16.1.0/Vazir-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yakan";
+  src: url("../fonts/IRANYekanBlack.ttf");
+}
+@font-face {
+  font-family: "yakan-m";
+  src: url("../fonts/IRANYekanBold.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Vazir";
+  direction: rtl;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#head {
+  width: 100%;
+  height: 4.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0;
+  background-color: #5b0000;
+  position: relative;
+}
+#head #logo {
+  width: 6.5rem;
+  height: 4rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 45%;
+  margin-left: 0;
+  padding: 0;
+}
+
+head > frame {
+  position: absolute;
+  top: 18px;
+  bottom: 0;
+  right: 6rem;
+  left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 5.5rem;
+  margin-left: 0;
+  padding: 6px;
+  color: white;
+  background-color: none;
+  border: solid 1px white;
+  border-radius: 10rem;
+  font-size: 12px;
+  font-weight: lighter;
+  animation: slideUp2 3s ease-out forwards;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes slideUp {
+  from {
+    transform: translateY(-50px);
+    /* شروع از پایین */
+    opacity: 0;
+    /* شروع به صورت نامرئی */
+  }
+  to {
+    transform: translateY(0);
+    /* پایان در موقعیت اصلی */
+    opacity: 1;
+    /* پایان با وضوح کامل */
+  }
+}
+@keyframes slideUp2 {
+  from {
+    transform: translateX(50px);
+    /* شروع از پایین */
+    opacity: 0;
+    /* شروع به صورت نامرئی */
+  }
+  to {
+    transform: translateX(0);
+    /* پایان در موقعیت اصلی */
+    opacity: 1;
+    /* پایان با وضوح کامل */
+  }
+}
+@keyframes slideUp3 {
+  from {
+    transform: translateY(-50px);
+    /* شروع از پایین */
+    opacity: 0;
+    /* شروع به صورت نامرئی */
+  }
+  to {
+    transform: translateY(0);
+    /* پایان در موقعیت اصلی */
+    opacity: 1;
+    /* پایان با وضوح کامل */
+  }
+}/*# sourceMappingURL=style.css.map */

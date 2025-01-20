@@ -1,0 +1,172 @@
+@import "./base.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Vazir';
+    direction: rtl;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#head {
+    @include Sizes (100%, 4.5rem);
+    @include margin (0, 0, 0, 0, 0);
+    background-color: #5b0000;
+    position: relative;
+
+    #logo {
+        @include Sizes (6.5rem, 4rem);
+        @include margin (0, 0, 45%, 0, 0);
+
+    }
+
+
+}
+
+head>frame {
+    @include positions (absolute, 18px, 0, 6rem, 0);
+    @include margin (0, 0, 5.5rem, 0, 6px);
+    @include styles (white, none, solid 1px white, 10rem);
+    // position: absolute;
+    @include textStyles (12px, lighter);
+    animation: slideUp2 3s ease-out forwards;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+@keyframes slideUp {
+    from {
+        transform: translateY(-50px);
+        /* شروع از پایین */
+        opacity: 0;
+        /* شروع به صورت نامرئی */
+    }
+
+    to {
+        transform: translateY(0);
+        /* پایان در موقعیت اصلی */
+        opacity: 1;
+        /* پایان با وضوح کامل */
+    }
+}
+
+
+@keyframes slideUp2 {
+    from {
+        transform: translateX(50px);
+        /* شروع از پایین */
+        opacity: 0;
+        /* شروع به صورت نامرئی */
+    }
+
+    to {
+        transform: translateX(0);
+        /* پایان در موقعیت اصلی */
+        opacity: 1;
+        /* پایان با وضوح کامل */
+    }
+}
+
+
+
+@keyframes slideUp3 {
+    from {
+        transform: translateY(-50px);
+        /* شروع از پایین */
+        opacity: 0;
+        /* شروع به صورت نامرئی */
+    }
+
+    to {
+        transform: translateY(0);
+        /* پایان در موقعیت اصلی */
+        opacity: 1;
+        /* پایان با وضوح کامل */
+    }
+}
