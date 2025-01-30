@@ -115,4 +115,17 @@ head > frame {
     opacity: 1;
     /* پایان با وضوح کامل */
   }
+}
+@media (max-width: 768px) {
+  #head {
+    width: 150vw;
+  }
+  #sini {
+    margin-right: -100px;
+    margin-top: 30px;
+  }
+  #h2 {
+    margin-right: -550px;
+    margin-top: -100px;
+  }
 }/*# sourceMappingURL=style.css.map */
